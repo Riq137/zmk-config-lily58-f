@@ -1,6 +1,6 @@
 manifest:
   defaults:
-    revision: v0.3
+    revision: 4dd95d7840eb3d5a3f59bb29fbf1ab054715ef85
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
@@ -10,5 +10,9 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: cirque-input-module
+      url: https://github.com/Riq137/cirque-input-module
+      revision: a577f0329d7d386c90abf35f1b7d9cbfa7b153a2
+      path: modules/cirque-input-module
   self:
     path: config
